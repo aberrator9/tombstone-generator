@@ -1,20 +1,31 @@
 html {
+    background-repeat: none;
     background-image: linear-gradient(rgb(97, 196, 196), rgb(208, 160, 72));
-    background-repeat: no-repeat;
-    height: 500px
+    /* background-size: 400px 1000px; */
+    text-shadow: rgb(192, 192, 192) -1px -2px, rgb(43, 43, 43) 2px 1px;
+    margin: 0;
+    background-repeat: none;
+    background-attachment: fixed;
 }
 
-html,
 body {
     background-color: transparent;
-    color: grey;
-    text-shadow: rgb(192, 192, 192) -1px -2px, rgb(43, 43, 43) 2px 1px;
 }
 
 .grave-text-container {
+    color: grey;
     display: flex;
+    background-color: rgb(82, 82, 82);
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
     align-items: center;
     justify-content: center;
+
+    height: 320px;
+    width: 400px;
     border-style: solid;
     border-top-left-radius: 72px;
     border-top-right-radius: 72px;
@@ -22,13 +33,10 @@ body {
     border-left-width: 20px;
     border-bottom-width: 0px;
     border-right-width: 10px;
-    height: 320px;
-    width: 400px;
+
     box-shadow: rgb(192, 192, 192) -5px -0px,
         rgb(100, 100, 100) 10px 0px;
-    margin: auto;
-    margin-top: 50px;
-    background-color: rgb(82, 82, 82);
+    /* margin-top: px; */
 }
 
 #grave-text {

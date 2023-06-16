@@ -8,8 +8,8 @@ const adjectives = ["silly", "dumb", "happy", "hungry", "fast", "flat",
     "rotund", "unreliable", "scared"];
 const nouns = ["dog", "hat", "hombre", "temptress", "fool", "varmint",
     "cat", "dark figure", "snail", "porcupine"];
-const endings = ["did 'em in", "ended 'em", "was their undoing",
-    "was the end of them", "did 'em", "was the last thing they saw",
+const endings = ["did 'em in", "ended their life", "was their undoing",
+    "was the end of them", "did 'em", "was the last they ever saw",
     "sent 'em 'eavenward", "did get them in the end"]
 
 class templateBuilder {
