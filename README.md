@@ -3,7 +3,7 @@ Generate a tombstone for your own virtual gravesite. Refresh the page to generat
 # Ideas to expand
 - Add phrase generation button or keystroke.
 - Add name field and gender selector.
-- Add additonal generation templates ->
+- Add additional generation templates ->
   - [Prefix phrase] + [Cause of death]
   - [Cause of death] + [Affix phrase]
   - etc
